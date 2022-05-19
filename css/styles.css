@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+
+:root{
+    --cor-fundo:#0B3954;
+    --cor-titulo:#FF6663;
+    --cor-paragrafo:#BFD7EA;
+    --cor-link:#E0FF4F;
+    --fonte: Macondo;
+
+}
+
+body{
+    background-color:var(--cor-fundo);
+    font-family:var(--fonte);
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+h1,h2{
+    color: var(--cor-titulo);
+}
+
+p,li,ul{
+    color:var(--cor-paragrafo);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    color:var(--cor-link);
+}
+
+img{
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+div.imagem{
+    text-align: center;
+}
